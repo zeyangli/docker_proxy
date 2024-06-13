@@ -1,0 +1,22 @@
+# This is a basic workflow to help you get started with Actions
+#VERSION 2
+#renew
+
+name: Docker image sync to tencent
+env:
+  REGISTRY_URL: "ccr.ccs.tencentyun.com/devopsvip/"
+on:
+  push:
+    paths:
+      - '.github/workflows/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Push Docker images
+      run: |
+        docker pull docker pull jenkins/inbound-agent:latest-jdk17 
+        docker tag jenkins/inbound-agent:latest-jdk17 ${REGISTRY_URL}/inbound-agent:latest-jdk17
+        docker login -u ${{ secrets.TENCENTDOCKER_USER}} -p ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
+        docker push ${REGISTRY_URL}/inbound-agent:latest-jdk17
