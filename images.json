@@ -18,6 +18,6 @@
   {
     "source": "jenkins/inbound-agent:latest-jdk17",
     "target": "ccr.ccs.tencentyun.com/devopsvip/inbound-agent:latest-jdk17"
-  },
+  }
 
 ]
