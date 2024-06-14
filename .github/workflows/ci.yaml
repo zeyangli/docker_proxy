@@ -9,6 +9,7 @@ on:
   push:
     paths:
       - '.github/workflows/**'
+      - 'images.json'
 
 jobs:
   build:
