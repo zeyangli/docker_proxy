@@ -1,7 +1,7 @@
 [
   {
-    "source": "jenkins/jenkins:2.452.2-lts-jdk17",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/jenkins:2.452.2-lts-jdk17"
+    "source": "alibabadragonwell/dragonwell:21-anolis",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/dragonwell:21-anolis"
   }
 
 ]
