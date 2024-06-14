@@ -12,7 +12,7 @@ def upload_docker_images(source_image,target_image,registry_url, username, passw
     pull_command = f"docker pull {source_image}"
     tag_command = f"docker tag {source_image} {target_image}"
     push_command = f"docker push {target_image}"
-    save_command = f"docker save {source_image} -o images/{source_image}"
+    save_command = f"docker save {source_image} -o images/test"
     subprocess.run(save_command, shell=True, check=True)
     
     subprocess.run(pull_command, shell=True, check=True)
