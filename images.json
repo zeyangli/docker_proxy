@@ -18,6 +18,10 @@
   {
     "source": "jenkins/inbound-agent:latest-jdk17",
     "target": "ccr.ccs.tencentyun.com/devopsvip/inbound-agent:latest-jdk17"
+  },
+  {
+    "source": "alibabadragonwell/dragonwell:21-anolis",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/dragonwell:21-anolis"
   }
 
 ]
