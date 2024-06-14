@@ -14,9 +14,11 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
+    - uses: actions/checkout@v2
     - name: Push Docker images
       run: |
-        docker pull jenkins/inbound-agent:latest-jdk17 
-        docker tag jenkins/inbound-agent:latest-jdk17 ${REGISTRY_URL}/inbound-agent:latest-jdk17
-        docker login -u ${{ secrets.TENCENTDOCKER_USER}} -p ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
-        docker push ${REGISTRY_URL}/inbound-agent:latest-jdk17
+        python uploader.py ${{ secrets.TENCENTDOCKER_USER}} ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
+        # docker pull jenkins/inbound-agent:latest-jdk17 
+        # docker tag jenkins/inbound-agent:latest-jdk17 ${REGISTRY_URL}/inbound-agent:latest-jdk17
+        # docker login -u ${{ secrets.TENCENTDOCKER_USER}} -p ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
+        # docker push ${REGISTRY_URL}/inbound-agent:latest-jdk17
