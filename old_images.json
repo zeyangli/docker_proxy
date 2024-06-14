@@ -1,0 +1,22 @@
+ [ 
+   {
+    "source": "sonarqube:9.9.0-community",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/sonarqube:9.9.0-community"
+  },
+  {
+    "source": "sonatype/nexus3:3.60.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/nexus3:3.60.0"
+  },
+  {
+    "source": "gitlab/gitlab-ce:16.2.2-ce.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/gitlab-ce:16.2.2-ce.0"
+  },
+  {
+    "source": "gitlab/gitlab-runner:alpine-v16.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/gitlab-runner:alpine-v16.2.0"
+  },
+  {
+    "source": "jenkins/inbound-agent:latest-jdk17",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/inbound-agent:latest-jdk17"
+  }
+ ]
