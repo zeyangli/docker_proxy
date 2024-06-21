@@ -1,7 +1,7 @@
 [
   {
-    "source": "alibabadragonwell/dragonwell:21-anolis",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/dragonwell:21-anolis"
+    "source": "jenkins/inbound-agent:latest-jdk11",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/inbound-agent:latest-jdk11"
   }
   
 ]
