@@ -1,7 +1,10 @@
 [
   {
-    "source": "jenkins/jenkins:2.415-jdk11",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/jenkins:2.415-jdk11"
+    "source": "k8s.gcr.io/ingress-nginx/controller:v1.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/controller:v1.2.0"
+  },
+  {
+    "source": " k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/kube-webhook-certgen:v1.1.1"
   }
-  
 ]
