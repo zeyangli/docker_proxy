@@ -1,10 +1,6 @@
 [
   {
-    "source": "k8s.gcr.io/ingress-nginx/controller:v1.2.0",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/controller:v1.2.0"
-  },
-  {
-    "source": " k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/kube-webhook-certgen:v1.1.1"
+    "source": "redis:7.2.4",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/redis:7.2.4"
   }
 ]
