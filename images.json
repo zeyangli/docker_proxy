@@ -1,6 +1,6 @@
 [
   {
-    "source": "redis:7.2.4",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/redis:7.2.4"
+    "source":"mysql/mysql-server:8.0.32",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/mysql-server:8.0.32"
   }
 ]
