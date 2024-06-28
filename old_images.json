@@ -1,4 +1,8 @@
  [ 
+    {
+    "source": "redis:7.2.4",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/redis:7.2.4"
+  },
    {
     "source": "k8s.gcr.io/ingress-nginx/controller:v1.2.0",
     "target": "ccr.ccs.tencentyun.com/devopsvip/controller:v1.2.0"
