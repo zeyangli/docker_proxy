@@ -1,6 +1,6 @@
 [
   {
-    "source":"mysql/mysql-server:8.0.32",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/mysql-server:8.0.32"
+    "source":"busybox:1.30",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/busybox:1.30"
   }
 ]
