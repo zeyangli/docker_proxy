@@ -2,5 +2,17 @@
   {
     "source":"busybox:1.30",
     "target":"ccr.ccs.tencentyun.com/devopsvip/busybox:1.30"
+  },
+  {
+    "source":"docker.elastic.co/elasticsearch/elasticsearch:7.5.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/elasticsearch:7.5.1"
+  },
+  {
+    "source":"skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-oap-server:9.2.0"
+  },
+  {
+    "source":"skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-ui:9.2.0"
   }
 ]
