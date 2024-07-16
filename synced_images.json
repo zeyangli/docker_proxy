@@ -1,5 +1,9 @@
  [ 
   {
+    "source":"apache/skywalking-java-agent:9.2.0-java17",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17"
+  },
+  {
     "source":"docker.elastic.co/elasticsearch/elasticsearch:7.5.1",
     "target":"ccr.ccs.tencentyun.com/devopsvip/elasticsearch:7.5.1"
   },
