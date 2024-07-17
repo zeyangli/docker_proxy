@@ -1,4 +1,12 @@
  [ 
+   {
+    "source":"docker.elastic.co/kibana/kibana:8.5.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/kibana:8.5.1"
+  },
+  {
+    "source":"docker.elastic.co/elasticsearch/elasticsearch:8.5.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/elasticsearch:8.5.1"
+  },
   {
     "source":"apache/skywalking-java-agent:9.2.0-java17",
     "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17"
