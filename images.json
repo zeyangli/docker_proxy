@@ -1,7 +1,7 @@
 [
    {
-    "source":"docker.elastic.co/kibana/kibana:8.5.1",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/kibana:8.5.1"
+    "source":"cr.fluentbit.io/fluent/fluent-bit:0.47.2",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/fluent-bit:0.47.2"
   }
 ]
 
