@@ -1,7 +1,7 @@
 [
    {
-    "source":"cr.fluentbit.io/fluent/fluent-bit:0.47.2",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/fluent-bit:0.47.2"
+    "source":"fluent/fluent-bit:3.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/fluent-bit:3.1"
   }
 ]
 
