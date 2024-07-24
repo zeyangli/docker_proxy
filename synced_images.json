@@ -1,4 +1,8 @@
- [ 
+ [    
+  {
+    "source":"fluent/fluent-bit:3.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/fluent-bit:3.1"
+  },
    {
     "source":"docker.elastic.co/kibana/kibana:8.5.1",
     "target":"ccr.ccs.tencentyun.com/devopsvip/kibana:8.5.1"
