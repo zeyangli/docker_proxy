@@ -1,27 +1,23 @@
 [
    {
-    "source":"quay.io/kiwigrid/k8s-sidecar:1.26.1",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/k8s-sidecar:1.26.1"
+    "source":"rabbitmq:3.8.9-management",
+    "target":"ccr.ccs.tencentyun.com/iairflow/rabbitmq:3.8.9-management"
   },
    {
-    "source":"docker.io/grafana/grafana:11.1.0",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/grafana:11.1.0"
+    "source":"postgres:13",
+    "target":"ccr.ccs.tencentyun.com/iairflow/postgres:13"
   },
    {
-    "source":"quay.io/prometheus-operator/prometheus-config-reloader:v0.75.1",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/prometheus-config-reloader:v0.75.1"
+    "source":"bitnami/pgbouncer:1.23.0",
+    "target":"ccr.ccs.tencentyun.com/iairflow/pgbouncer:1.23.0"
   },
    {
-    "source":"quay.io/prometheus-operator/prometheus-operator:v0.75.1",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/prometheus-operator:v0.75.1"
+    "source":"prom/statsd-exporter:v0.22.7",
+    "target":"ccr.ccs.tencentyun.com/iairflow/statsd-exporter:v0.22.7"
   },
    {
-    "source":"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.12.0",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/kube-state-metrics:v2.12.0"
-  },
-   {
-    "source":"quay.io/prometheus/node-exporter:v1.8.1",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/node-exporter:v1.8.1"
+    "source":"apache/airflow:1.10.10-python3.7",
+    "target":"ccr.ccs.tencentyun.com/iairflow/airflow:1.10.10-python3.7"
   }
 ]
 
