@@ -1,4 +1,23 @@
- [  
+ [  {
+    "source":"rabbitmq:3.8.9-management",
+    "target":"ccr.ccs.tencentyun.com/iairflow/rabbitmq:3.8.9-management"
+  },
+   {
+    "source":"postgres:13",
+    "target":"ccr.ccs.tencentyun.com/iairflow/postgres:13"
+  },
+   {
+    "source":"bitnami/pgbouncer:1.23.0",
+    "target":"ccr.ccs.tencentyun.com/iairflow/pgbouncer:1.23.0"
+  },
+   {
+    "source":"prom/statsd-exporter:v0.22.7",
+    "target":"ccr.ccs.tencentyun.com/iairflow/statsd-exporter:v0.22.7"
+  },
+   {
+    "source":"apache/airflow:1.10.10-python3.7",
+    "target":"ccr.ccs.tencentyun.com/iairflow/airflow:1.10.10-python3.7"
+  },
    {
     "source":"quay.io/prometheus/alertmanager:v0.27.0",
     "target":"ccr.ccs.tencentyun.com/devopsvip/alertmanager:v0.27.0"
