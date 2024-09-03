@@ -1,4 +1,13 @@
- [  {
+ [  
+  {
+    "source":"rancher/rancher:v2.8-head",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/rancher:v2.8-head"
+  },
+   {
+    "source":"rancher/rancher-agent:v2.8-head",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/rancher-agent:v2.8-head"
+   },
+  {
     "source":"rabbitmq:3.8.9-management",
     "target":"ccr.ccs.tencentyun.com/iairflow/rabbitmq:3.8.9-management"
   },
