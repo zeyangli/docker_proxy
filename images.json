@@ -1,7 +1,12 @@
 [
    {
-      "source":"sonarqube:10.6.0-community",
-      "target":"ccr.ccs.tencentyun.com/devopsvip/sonarqube:10.6.0-community"
+      "source":"sonarsource/sonar-scanner-cli:5.0.1",
+      "target":"ccr.ccs.tencentyun.com/devopsvip/sonar-scanner-cli:5.0.1"
+   }
+   ,
+    {
+      "source":"postgres:15",
+      "target":"ccr.ccs.tencentyun.com/devopsvip/postgres:15"
    }
 ]
 
