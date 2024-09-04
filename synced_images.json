@@ -1,4 +1,8 @@
  [  
+   {
+      "source":"sonarqube:10.6.0-community",
+      "target":"ccr.ccs.tencentyun.com/devopsvip/sonarqube:10.6.0-community"
+   },
   {
     "source":"rancher/rancher:v2.8-head",
     "target":"ccr.ccs.tencentyun.com/devopsvip/rancher:v2.8-head"
