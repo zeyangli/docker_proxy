@@ -1,12 +1,7 @@
 [
    {
-      "source":"sonarsource/sonar-scanner-cli:5.0.1",
-      "target":"ccr.ccs.tencentyun.com/devopsvip/sonar-scanner-cli:5.0.1"
-   }
-   ,
-    {
-      "source":"postgres:15",
-      "target":"ccr.ccs.tencentyun.com/devopsvip/postgres:15"
+      "source":"kindest/node:v1.34.0",
+      "target":"ccr.ccs.tencentyun.com/devopsvip/node:v1.34.0"
    }
 ]
 
